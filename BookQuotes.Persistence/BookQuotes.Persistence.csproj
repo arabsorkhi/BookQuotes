@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DBContext\" />
+    <Folder Include="EFCore\" />
+    <Folder Include="Migration\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookQuotes.Application\BookQuotes.Application.csproj" />
+  </ItemGroup>
+
 </Project>

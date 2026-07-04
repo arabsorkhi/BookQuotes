@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ExternalAPI\" />
+    <Folder Include="Logger\" />
+    <Folder Include="Email\" />
+    <Folder Include="Redis\" />
+    <Folder Include="FileStorage\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookQuotes.Application\BookQuotes.Application.csproj" />
+  </ItemGroup>
+
 </Project>
